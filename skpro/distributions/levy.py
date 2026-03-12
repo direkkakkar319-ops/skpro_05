@@ -30,7 +30,7 @@ class Levy(_ScipyAdapter):
     >>> from skpro.distributions.levy import Levy
     >>> dist = Levy(mu=0.0, scale=1.0)
     >>> dist.mean()
-    inf
+    np.float64(inf)
     """
 
     _tags = {
